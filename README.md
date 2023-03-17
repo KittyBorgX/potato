@@ -1,6 +1,10 @@
 # potato
 Who said python couldn't have nice errors? 
 
+
+### When will work start on this? 
+Heavy and serious development will start from next week :) (Somewhere around 25th March, 2023)
+
 ### Running
 ```
 git clone https://github.com/KittyBorgX/potato.git
