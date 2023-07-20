@@ -1,19 +1,24 @@
 # potato
-Who said python couldn't have nice errors? 
 
+A stricter typed dialect of python
 
-### When will work start on this? 
-Heavy and serious development will start from next week :) (Somewhere around 25th March, 2023)
+### What's this?
+
+This is a stricter dialect of python with a strong type system (sort of like typescript for javascript), written in rust
+and aims to have performance gains while still retaining the simple syntax of python.
+
+### Features (HEAVILY WIP!)
+
+- LLVM Backend
+- Strong type system
+- Written in rust
+- Nice errors :)
 
 ### Running
+
 ```
 git clone https://github.com/KittyBorgX/potato.git
 cd potato
 cargo build --release
 ./target/release/potato test.py # Assuming your file is `test.py`
 ```
-
-### How do I achieve this? 
-* Capture output of the python process by running the file provided
-* Parse the output and look for any errors
-* Format the errors using ariadne/codespan-reporting and display them back
